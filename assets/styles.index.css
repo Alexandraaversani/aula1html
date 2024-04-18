@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/* Reset CSS */
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: "PT Serif", serif;
+    color:aliceblue;
+}
+
+
