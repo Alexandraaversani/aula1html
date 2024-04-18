@@ -15,9 +15,46 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color:aliceblue;
     font-family: "PT Serif", serif;
     color:aliceblue;
+    padding: 10px;
 }
 
+h2 {
+    text-align: center;
+}
 
+header {
+    background-color:blueviolet;
+    margin: 10px 0;
+    border-radius: 8px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*vertical*/
+    align-items: center; /*horizontal*/
+}
+
+#principal {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    border-radius: 6px;
+    justify-content:space-between;
+}
+
+main {
+    background-color:blueviolet;
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside {
+    background-color: mediumpurple;
+    border-radius: 6px;
+    width: 25%;
+    height: 100%;
+
+}
