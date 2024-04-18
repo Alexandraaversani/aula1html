@@ -26,7 +26,7 @@ h2 {
 }
 
 header {
-    background-color:blueviolet;
+    background-color:palevioletred;
     margin: 10px 0;
     border-radius: 8px;
     height: 150px;
@@ -45,16 +45,38 @@ header {
 }
 
 main {
-    background-color:blueviolet;
+    background-color:lightpink;
     border-radius: 6px;
     height: 100%;
     width: 74%;
 }
 
 aside {
-    background-color: mediumpurple;
+    background-color:pink;
     border-radius: 6px;
     width: 25%;
     height: 100%;
 
+}
+footer {
+    background-color:palevioletred;
+    border-radius: 6px;
+    margin: 10px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color:aliceblue;
+}
+
+footer a {
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid 
 }
